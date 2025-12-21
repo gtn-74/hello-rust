@@ -1,0 +1,7 @@
+# ルートに.gitignoreを作成
+cat > .gitignore << 'EOF'
+/target
+**/*.rs.bk
+Cargo.lock
+.DS_Store
+EOF

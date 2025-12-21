@@ -1,0 +1,21 @@
+[workspace]
+members = ["guessing_game", "hello_cargo"]
+
+resolver = "2"
+
+
+## 2. 構造を確認
+
+# ディレクトリ構造はこうなっているはずです：
+
+# hello_rust/
+# ├── Cargo.toml          # ← ワークスペース設定（新規作成）
+# ├── guessing_game/
+# │   ├── Cargo.toml      # ← 既存（そのまま）
+# │   └── src/
+# ├── hello_cargo/
+# │   ├── Cargo.toml      # ← 既存（そのまま）
+# │   └── src/
+# └── hello_rust/
+#     ├── Cargo.toml      # ← 既存（そのまま）
+#     └── src/
