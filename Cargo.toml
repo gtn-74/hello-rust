@@ -1,5 +1,5 @@
 [workspace]
-members = ["control_flow","guessing_game", "hello_cargo"]
+members = ["control_flow","guessing_game", "hello_cargo", "ownership", "roket-api"]
 
 resolver = "2"
 
